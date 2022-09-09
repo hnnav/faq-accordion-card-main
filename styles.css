@@ -16,10 +16,10 @@ body {
     border-radius: 25px;
     padding: 50px;
     margin: 100px 200px;
+    display: flex;
 }
 
 .logo-image {
-
 }
 
 .text-content {
@@ -27,5 +27,4 @@ body {
 }
 
 .logo-image, .text-content {
-    display: block;
 }
