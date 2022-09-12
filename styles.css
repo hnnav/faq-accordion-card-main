@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 1440px;
+
 }
 
 body {
@@ -14,17 +15,23 @@ body {
 .question-box {
     background-color: white;
     border-radius: 25px;
-    padding: 50px;
     margin: 100px 200px;
+    padding: 75px 100px 75px 0px;
     display: flex;
-}
-
-.logo-image {
+    column-gap: 100px;
+    justify-content: left;
+    
 }
 
 .text-content {
     color: hsl(237, 12%, 33%);
 }
 
-.logo-image, .text-content {
+.main-image {
+    align-self: center;
+    margin-left: -85px;
+    clip-path: inset(0px 0px 0px 85px);
+}
+
+.arrow-image {
 }
