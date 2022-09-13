@@ -6,10 +6,9 @@ body {
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
-    color: hsl(238, 29%, 16%);
 }
 
-.question-box {
+.white-box {
     background-color: white;
     border-radius: 25px;
     margin: 100px 200px;
@@ -30,5 +29,8 @@ body {
     clip-path: inset(0px 0px 0px 85px);
 }
 
-.arrow-image {
+.question-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
