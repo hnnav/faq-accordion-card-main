@@ -1,20 +1,56 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
 body {
     height: fit-content;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     background-repeat: no-repeat;
+    font-family: 'Karla', sans-serif;
+}
+
+.main-image {
+    margin-top: -42%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.shadow-image {
+    margin-top: -25%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .white-box {
     background-color: white;
     margin: 150px 20px;
-    padding: 150px 20px 70px;
+    padding: 0px 20px 70px;
     height: fit-content;
     border-radius: 20px;
 
     display: flex;
     flex-direction: column;
+
+    /* background-image: url(images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top; */
 }
 
 .white-box h1 {
+    margin-top: 50px;
     text-align: center;
+}
+
+.white-box p {
+    font-size: 14px;
+}
+
+.question-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.q-and-a {
+    padding-bottom: 15px;
+    border-bottom: 1.5px solid rgb(204, 204, 204);
 }
