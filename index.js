@@ -1,6 +1,8 @@
-const questionLine = document.querySelectorAll('.question-line')
+const questionLines = document.querySelectorAll('.question-line')
 
-questionLine.forEach(arrow => arrow.addEventListener('click', showAnswer))
+questionLines.forEach(questionLine => {
+    questionLine.addEventListener('click', showAnswer)
+})
 
 function showAnswer() {
     const answer = this.nextElementSibling
