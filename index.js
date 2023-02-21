@@ -6,5 +6,10 @@ questionLines.forEach(questionLine => {
 
 function showAnswer() {
     const answer = this.nextElementSibling
-    answer.style.display = 'block'
+
+    if (answer.style.display === "none") {
+        answer.style.display = "block";
+    } else {
+        answer.style.display = "none";
+    }
 }
